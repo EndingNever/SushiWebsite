@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.navbar-container{
+    border: 2px solid green;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo{
+    background-image: url('/public/images/kimoto-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 12%;
+}
+
+.navigation-items-container{
+    border: 2px solid red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    /* align-items: flex-start; */
+}
+
+.navigation-item{
+    /* border: 2px solid red; */
+    font-size: xx-large;
+    font-weight: 300;
+    font-style: "Smooch sans", sans-sarif;
+    
+}
