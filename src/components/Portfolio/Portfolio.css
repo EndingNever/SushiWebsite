@@ -1,4 +1,4 @@
 .portfolio-container{
     background-color: rgb(244,244,244);
-    
+    display: grid;
 }
