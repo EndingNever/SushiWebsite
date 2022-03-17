@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
 .navbar-container{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -19,18 +19,24 @@
 }
 
 .navigation-items-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 30%;
     /* align-items: flex-start; */
 }
 
 .navigation-item{
-    /* border: 2px solid red; */
-    font-size: xx-large;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     font-style: "Smooch sans", sans-sarif;
-    
+    letter-spacing: 2px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item-1{
+    border: 1px solid white;
 }

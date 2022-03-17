@@ -1,0 +1,47 @@
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about-container{
+    /* border: 10px solid purple; */
+    display: flex;
+    height: 62%;
+    width: 60%;
+}
+
+.about-photo-container{
+    background-image: url('/public/images/about-kimoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.about-text-container{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: start;
+    width: 50%;
+}
+
+.about-text-container h4{
+    color: rgb(158, 131, 44);
+    font-weight: 700;
+}
+.about-text-container h3{
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.about-text{
+    /* border: 2px solid red; */
+    font-weight:500;
+    font-size: 22px;
+    margin-left: 25px;
+}

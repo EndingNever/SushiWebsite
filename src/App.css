@@ -18,7 +18,7 @@ body{
 
 .body-component{
   border: 2px solid green;
-  height: 65vh;
+  height: 67vh;
 }
 
 .portfolio-component{
@@ -30,4 +30,8 @@ body{
   height: 0;
   position: sticky;
   top: 0;
+}
+
+.portfolio-component{
+  background-color: rgb(244,244,244);
 }
